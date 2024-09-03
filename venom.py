@@ -16,7 +16,7 @@ ADMIN_IDS = [1499705163]
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 db = client['VENOM']
 users_collection = db.users
-bot = telebot.TeleBot(7513665192:AAHg9dnuXRYY8GNRKGeE9o0lqKTEUvaNk1Y)
+bot = telebot.TeleBot(TOKEN)
 blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]
 user_attack_details = {}
 active_attacks = {}
